@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Cloning repository...'
-                git 'https://github.com/AdeshAJ/Jenkins-Pipeline-for-CI-CD.git'
+                //git 'https://github.com/AdeshAJ/Jenkins-Pipeline-for-CI-CD.git'
             }
         }
 
